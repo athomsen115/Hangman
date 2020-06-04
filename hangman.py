@@ -157,7 +157,7 @@ def mainMenu():
             if click:
                 filename = "words.txt"
                 main(filename)
-        if button2.collidepoint(posx, posy):
+        if button3.collidepoint(posx, posy):
             if click:
                 filename = "hardWords.txt"
                 main(filename)
